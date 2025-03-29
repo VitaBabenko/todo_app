@@ -1,5 +1,3 @@
-'use client';
-
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
@@ -40,9 +38,7 @@ const Todo = () => {
 
 	useEffect(() => {
 		const fetchTotalTodos = async () => {
-			const response = await axios.get(
-				'https://jsonplaceholder.typicode.com/todos'
-			);
+			const response = await axiosInstance.get('/todos');
 			setTotalTodos(response.data.length);
 		};
 
