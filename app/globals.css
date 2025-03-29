@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@layer base {
+	body {
+		@apply bg-blue-100 text-black min-h-screen flex flex-col;
+	}
+}
+
+@layer components {
+	.container {
+		@apply max-w-7xl mx-auto px-4;
+	}
+}
