@@ -5,9 +5,7 @@ A Todo application built with Next.js, JSONPlaceholder API, Tailwind CSS, Axios,
 ## Features
 
 Fetches and displays todos from JSONPlaceholder API
-
 Adds new todos
-
 Deletes todos
 
 ## Tech Stack
